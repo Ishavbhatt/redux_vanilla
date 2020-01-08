@@ -61,5 +61,5 @@ Reset.addEventListener("click", () => {
 });
 
 state.subscribe(() => {
-  h2.innerText = state.getState();
+  number.innerText = state.getState();
 });
